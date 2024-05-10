@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Theme Simply Me</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+      body {
+        font: 20px "Montserrat", sans-serif;
+        line-height: 1.8;
+        color: #f5f6f7;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .bg-1 {
+        background-color: #1abc9c;
+        color: #ffffff;
+      }
+
+      .bg-2 {
+        background-color: #474e5d;
+        color: #ffffff;
+      }
+
+      .bg-3 {
+        background-color: #ffffff;
+        color: #555555;
+      }
+
+      .bg-4 {
+        background-color: black;
+        color: white;
+      }
+
+      .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 32px;
+      }
+
+      .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+      }
+
+      .navbar-nav li a:hover {
+        color: #1abc9c !important;
+      }
+
+      .img-circle {
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Me</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#who">WHO</a></li>
+            <li><a href="#what">WHAT</a></li>
+            <li><a href="#where">WHERE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg-1 text-center" id="who">
+      <h3>Who Am I?</h3>
+      <img src="bird.jpg" class="img-circle" alt="bird" />
+      <h3>I'm an adventurer</h3>
+    </div>
+
+    <div class="container-fluid bg-2 text-center" id="what">
+      <h3>What Am I?</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula
+        quam, fringilla a nunc vel, suscipit efficitur tellus. Aliquam erat
+        volutpat. Aenean tempus ac libero in blandit. In hac habitasse platea
+        dictumst. Sed urna mi, cursus a felis in, mattis laoreet leo. Sed
+        elementum gravida risus, sed mattis orci tristique in. Morbi sed
+        tristique enim. Donec laoreet suscipit magna, a suscipit est. Phasellus
+        luctus eros a dui accumsan, quis tempor odio egestas. Nam placerat nisi
+        ut risus auctor aliquet.
+      </p>
+      <a href="#" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-search"></span>Search
+      </a>
+    </div>
+
+    <div class="container-fluid bg-3 text-center" id="where">
+      <h3 class="where_title">Where To Find Me?</h3>
+      <div class="row">
+        <div class="col-sm-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula
+            quam, fringilla a nunc vel,
+          </p>
+          <img
+            src="b1.jpeg"
+            alt="bird1"
+            class="img responsive img-circle"
+            width="100%"
+            style="display: inline"
+          />
+        </div>
+        <div class="col-sm-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula
+            quam, fringilla a nunc vel,
+          </p>
+          <img
+            src="bird2.jpg"
+            alt="bird2"
+            class="img responsive img-circle"
+            width="100%"
+            style="display: inline"
+          />
+        </div>
+        <div class="col-sm-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula
+            quam, fringilla a nunc vel,
+          </p>
+          <img
+            src="b3.jpeg"
+            alt="bird3"
+            class="img responsive img-circle"
+            width="100%"
+            style="display: inline"
+          />
+        </div>
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ligula
+        quam, fringilla a nunc vel, suscipit efficitur tellus. Aliquam erat
+        volutpat. Aenean tempus ac libero in blandit. In hac habitasse platea
+        dictumst. Sed urna mi, cursus a felis in, mattis laoreet leo. Sed
+        elementum gravida risus, sed mattis orci tristique in. Morbi sed
+        tristique enim. Donec laoreet suscipit magna, a suscipit est. Phasellus
+        luctus eros a dui accumsan, quis tempor odio egestas. Nam placerat nisi
+        ut risus auctor aliquet.
+      </p>
+    </div>
+    <footer class="container-fluid bg-4 text-center">
+      <p>
+        Bootstrap Made by Chang Min Choi<br />
+        <a href="https://www.seoultech.ac.kr/index.jsp"
+          >Seoul National University of Science and Technology</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
